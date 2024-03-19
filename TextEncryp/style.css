@@ -49,6 +49,10 @@ main{
     cursor:text;
 }
 
+.textbox::placeholder{
+    color:darkslateblue;
+}
+
 .alert{
     position: absolute;
     left: 5%;
@@ -143,4 +147,8 @@ main{
     color: blue;
     border: 1px solid blue;
     background-color: gainsboro;
+}
+
+.delete{
+    display: none;
 }
